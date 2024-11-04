@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="action">
-        <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
+        <a target="_blank" rel="noreferrer" onClick={ipcHandle} className="bg-slate-300">
           Send IPC
         </a>
       </div>
